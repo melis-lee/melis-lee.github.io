@@ -8,7 +8,7 @@ Last semester, I attended the UConn Sports Analytics Symposium. It was an all-da
 
 The package includes datasets that have statistics from the 2017-2018 NBA season. The Houston Rockets did well that season so I decided to use that team to illustrate some things that can be done with this package.
 
-### install the package and load package to the library
+Install the package and load package to the library:
 install.packages('BasketballAnalyzeR')
 library('BasketballAnalyzeR')
 
