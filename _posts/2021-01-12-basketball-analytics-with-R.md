@@ -79,4 +79,4 @@ plot(netdata.hou, layout="circle")
 
 This plot shows us the assists made by the team. The arrow shows the direction of the assist and the color shows how many assists the player made to the other player. For example, we can see that Chris Paul made a lot of assists to his teammates. He made most assists to Clint Capela shown by the dark red arrow.
 
-There are other functions in the package, but these are the ones I wanted to share with you today. I think that these plots can be helpful for teams and opponents to learn about the team and trends in the way they play. I hope you find this as cool as I think it is, be on the lookout for more stuff soon!
+There are other functions in the package, but these are the ones I wanted to share with you today. I think that these plots can be helpful for teams and opponents to learn about the team and trends in the way they play.
