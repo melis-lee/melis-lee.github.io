@@ -2,8 +2,6 @@
 layout: post
 ---
 
-# Basketball Analytics Using R
-
 Last semester, I attended the UConn Sports Analytics Symposium. It was an all-day symposium with speakers, poster presentations and workshops. I really enjoyed learning more about sports analytics and all the types of analysis that can be done. In the afternoon, I attended a workshop about basketball analytics with R. I learned about some cool visualizations you can do with the package BasketballAnalyzeR. I will illustrate some of them in this blog post.
 
 The package includes datasets that have statistics from the 2017-2018 NBA season. The Houston Rockets did well that season so I decided to use that team to illustrate some things that can be done with this package.
