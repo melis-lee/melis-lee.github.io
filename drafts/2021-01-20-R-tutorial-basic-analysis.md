@@ -64,4 +64,41 @@ table(mtcars$cyl)
 
 ![table](/img/table.JPG)
 
-In my code, you can see that I used the dollar sign to specifiy I only want to use the cyl column in my dataset to make a table. 
+In my code, you can see that I used the dollar sign to specifiy I only want to use the cyl column in my dataset to make a table. We can make our table even more specific by adding another variable:
+
+```
+table(mtcars$cyl, mtcars$gear)
+```
+
+![table2](/img/table2.JPG)
+
+In this table, the rows correspond to the options for cyl and the columns correspond to the options for gear. So we can say that 12 cars have cyl = 8 and gear = 3. We can add a third dimension to the table by adding one more variable:
+
+```
+table(mtcars$cyl, mtcars$gear, mtcars$vs)
+```
+
+![table3](/img/table3.JPG)
+
+The table is now split into two parts: vs = 0 and vs = 1. There is a separate contingency table for the two parts. Here we can say that 2 cars have vs = 0, cyl = 6, and gear = 4.
+
+We have seen that we can get some basic summary statistics and create tables to learn more about the variables. However, there are many more statistics you may be interested in calculating such as the standard deviation. It's pretty easy to calculate both for a variable:
+
+```
+sd(mtcars$mpg)
+range(mtcars$mpg)
+```
+
+If you would like to round the values to a certain number of decimals, you can do this using the round command. I'm rounding to 3 decimals in the example below:
+
+```
+round(sd(mtcars$mpg), 3)
+```
+
+If you want to calculate the standard deviation of all variables in the dataset, you could do this one by one using the commands above. However, this can take a long time, especially when you have a large dataset. Luckily, there is a function in R that can do this for you. To use this function, you need to include the name of the dataset, and what function you would like to apply. We used sd, but there are many other functions you could use such as range, mean, and median.
+
+```
+sapply(mtcars, sd)
+```
+
+![sapply](/img/sapply.JPG)
