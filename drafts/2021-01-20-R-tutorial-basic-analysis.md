@@ -102,3 +102,35 @@ sapply(mtcars, sd)
 ```
 
 ![sapply](/img/sapply.JPG)
+
+## Subsetting Data
+
+Sometimes, I like to subset my dataset if I only want to look at specific parts of the data. In R this can be done using brackets. In this brackets you're able to specifiy the indices of the rows and columns you would like to keep or remove. The first index is for rows, and the second index is for columns. The code below only takes the first row of the dataset.
+
+```
+mtcars[1,]
+```
+
+![subset](/img/subset.JPG)
+
+If you only want the first column, you can do this in two different ways. You can use "1" to specifiy we want to first column. However, since we know the name of the column, we could also use "mpg" to specify we want to include that column. This could especially be helpful if you have a lot of columns in your dataset and don't want to count which column you want to keep.
+
+```
+mtcars[,1]
+mtcars[,"mpg"]
+```
+
+In some cases, you may want to keep all variables in your dataset except one. In this example, let's say we want to keep all variables except the first one. There are two ways we could code this:
+
+```
+mtcars[,-1]
+mtcars[,2:11]
+```
+
+The first line tell R to remove the first variable. The second line tells R to keep the second till the eleventh variable. One important thing to keep in mind when you subset data using the brackets is it won't change anthing in your original dataset. If you would like to save your subset as a new dataset, you need to assign it a name which you can do as follows:
+
+```
+new_data <- mtcars[,-1]
+```
+
+When you assign a name to a variable, or a new dataset in this case, the rule is that it must start with a letter. After that you can have letters, nummbers, underscore, or period. R is case sensitive so keep that in mind when you assign names. Lastly, Special characters are not allowed in variable names.
