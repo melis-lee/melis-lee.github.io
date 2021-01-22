@@ -46,3 +46,22 @@ head(mtcars, 10)
 ```
 
 Instead of the first 6 observations, we will now be shown the first 10 observations in the dataset.
+
+## Basic Exploratory Analysis
+Now it's time to take a closer look at the data. One thing I often like to do, is creating a summary output of my dataset. I can do this using the summary command:
+
+```
+summary(mtcars)
+```
+
+![summary](/img/summary.JPG)
+
+You can see that R gives us the minimum value, 1st quantile, median, mean, 3rd quantile, and maximum value of all numeric variables. If any missing data is present, the summary command will show you this as well as NA. There are a few variables for which the summary statistics don't make as much sense. An example is the variable cyl that can only have 3 possible values: 4, 6, and 8. For these types of variables, we can create a contingency table:
+
+```
+table(mtcars$cyl)
+```
+
+![table](/img/table.JPG)
+
+In my code, you can see that I used the dollar sign to specifiy I only want to use the cyl column in my dataset to make a table. 
