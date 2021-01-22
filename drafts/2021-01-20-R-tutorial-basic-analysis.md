@@ -111,7 +111,7 @@ Sometimes, I like to subset my dataset if I only want to look at specific parts 
 mtcars[1,]
 ```
 
-![subset](/img/subset.JPG)
+![subset1](/img/subset1.JPG)
 
 If you only want the first column, you can do this in two different ways. You can use "1" to specifiy we want to first column. However, since we know the name of the column, we could also use "mpg" to specify we want to include that column. This could especially be helpful if you have a lot of columns in your dataset and don't want to count which column you want to keep.
 
