@@ -178,4 +178,4 @@ mtcars[mtcars$carb != 4,]
 
 This line tells R to keep all observations that do not have a value of 4 for carb.
 
-In this post, I showed you how to do some very basic data analysis on your dataset. We created summaries, tables, and also learning how to created different subsets. I hope that this helps you get started with your dataset, even if you have never worked with R before.
+In this post, I showed you how to do some very basic data analysis on your dataset. We created summaries, tables, and also learned how to create different subsets. I hope that this helped you get started with your dataset, even if you have never worked with R before.
