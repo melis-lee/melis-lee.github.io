@@ -6,4 +6,16 @@ For this tutorial I will be showing you how to make basic plots in R. Of course 
 
 ![str](/img/str.JPG)
 
-Before we can start plotting data, it is important to understand that we use different types of plots depending on the type of data we have. Data can often be split into two types of variables: quantitative and qualitative variables. Quantitative variables are variables that define the quantity of something. Quantitiative variables are usually numbers and result from counting or measuring something. A few examples of quantitative variables are someone's age, the temperature on a given day, and the time it takes to write a blog post. Qualitative variables, sometimes also referred to as categorical variables are often descriptions of the groups the values can be put into. A few examples of qualitative variables are someone's favorite color or the type of transportation used to get to work.
+Before we can start plotting data, it is important to understand that we use different types of plots depending on the type of data we have. Data can often be split into two types of variables: **quantitative and qualitative variables**. Quantitative variables are variables that define the quantity of something. Quantitiative variables are usually numbers and result from counting or measuring something. A few examples of quantitative variables are someone's age, the temperature on a given day, and the time it takes to write a blog post. Qualitative variables, sometimes also referred to as categorical variables are often descriptions of the groups the values can be put into. A few examples of qualitative variables are someone's favorite color or the type of transportation used to get to work. Depending on whether we have quantitative or qualitative variables, differrent types of plots will be appropriate to use.
+
+## Plots for Quantitative Variables
+
+### Histogram
+
+### Scatter Plot
+
+## Plots for Qualitative Variables
+
+### Bar Chart
+
+### Pie Chart
