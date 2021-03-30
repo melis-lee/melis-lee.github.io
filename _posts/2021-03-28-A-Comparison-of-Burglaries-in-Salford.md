@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 In my Spatial Statistics course, we learned how to perform analysis in three primary subfields of spatial statistics: geostatistics, lattice processes, and point processes. For this project, I performed a point process analysis on burglaries in the summer and winter months in Salford, a sub-region in the greater Manchester areas. The following packages were used for this project:
 
 ```
